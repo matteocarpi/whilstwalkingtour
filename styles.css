@@ -1,0 +1,37 @@
+
+h1 {
+  white-space: nowrap;
+  font-family: Montserrat, Helvetica;
+  font-size: 100px;
+  text-align: center;
+  color: #FFDF42;
+  width:100%;
+}
+
+h2 {
+  font-family: Montserrat, Helvetica;
+  font-size: 60px;
+  color: #FFDF42;
+  text-align: center;
+  margin: 0;
+}
+
+.black {
+  color: #000000;
+}
+
+.same-line, .same-line-h1 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 1.6em;
+}
+
+
+
+.central-wrap {
+  display: grid;
+  justify-items: center;
+  align-self: center;
+  vertical-align: middle;
+  margin: 15em auto;
+}
